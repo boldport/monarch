@@ -1,0 +1,250 @@
+{
+  "pins":
+  {
+  "1":
+    {	
+      "layout": 
+      {
+	"pad": "pin1", 
+	"location": [-3.81,11.43],
+        "rotate": 90,
+        "label": "CLRn"
+      }
+    },
+  "2":
+    {
+      "layout": 
+      {
+	"pad": "pin", 
+	"location": [-3.81,8.89],
+        "label": "1Q"
+      }
+    },
+  "3":
+    {
+      "layout": 
+      {
+	"pad": "pin", 
+	"location": [-3.81,6.35],
+        "label": "1D"
+      }
+    },
+  "4":
+    {
+      "layout": 
+      {
+	"pad": "pin", 
+	"location": [-3.81,3.81],
+        "label": "2D"
+      }
+    },
+  "5":
+    {	
+      "layout": 
+      {
+	"pad": "pin", 
+	"location": [-3.81,1.27],
+        "label": "2Q"
+      }
+    },
+  "6":
+    {
+      "layout": 
+      {
+	"pad": "pin", 
+	"location": [-3.81,-1.27],
+        "rotate": 0,
+        "label": "3Q"
+      }
+    },
+  "7":
+    {
+      "layout": 
+      {
+	"pad": "pin", 
+	"location": [-3.81,-3.81],
+        "label": "3D"
+      }
+    },
+  "8":
+    {	
+      "layout": 
+      {
+	"pad": "pin", 
+	"location": [-3.81, -6.35],
+        "label": "4D"
+      }
+    },
+  "9":
+    {
+      "layout": 
+      {
+	"pad": "pin", 
+	"location": [-3.81,-8.89],
+        "rotate": 0,
+        "label": "4Q"
+      }
+    },
+  "10":
+    {
+      "layout": 
+      {
+	"pad": "pin", 
+	"location": [-3.81,-11.43],
+        "label": "GND"
+      }
+    },
+  "11":
+    {	
+      "layout": 
+      {
+	"pad": "pin", 
+	"location": [3.81,-11.43],
+        "rotate": 0,
+        "label": "CLK"
+      }
+    },
+  "12":
+    {
+      "layout": 
+      {
+	"pad": "pin", 
+	"location": [3.81,-8.89],
+        "label": "5Q"
+      }
+    },
+  "13":
+    {
+      "layout": 
+      {
+	"pad": "pin", 
+	"location": [3.81,-6.35],
+        "label": "5D"
+      }
+    },
+  "14":
+    {
+      "layout": 
+      {
+	"pad": "pin", 
+	"location": [3.81,-3.81],
+        "label": "6D"
+      }
+    },
+  "15":
+    {	
+      "layout": 
+      {
+	"pad": "pin", 
+	"location": [3.81,-1.27],
+        "label": "6Q"
+      }
+    },
+  "16":
+    {
+      "layout": 
+      {
+	"pad": "pin", 
+	"location": [3.81,1.27],
+        "rotate": 0,
+        "label": "7Q"
+      }
+    },
+  "17":
+    {
+      "layout": 
+      {
+	"pad": "pin", 
+	"location": [3.81,3.81],
+        "label": "7D"
+      }
+    },
+  "18":
+    {	
+      "layout": 
+      {
+	"pad": "pin", 
+	"location": [3.81,6.35],
+        "label": "8D"
+      }
+    },
+  "19":
+    {
+      "layout": 
+      {
+	"pad": "pin", 
+	"location": [3.81,8.89],
+        "rotate": 0,
+        "label": "8Q"
+      }
+    },
+  "20":
+    {
+      "layout": 
+      {
+	"pad": "pin", 
+	"location": [3.81,11.43],
+        "label": "VCC"
+      }
+    }
+  },
+  "layout":
+  {
+    "silkscreen":
+    {
+      "shapes":
+      [
+      ]
+    },
+    "assembly":
+    {
+      "shapes":
+      [
+        {
+          "type": "rect",
+	  "width": 10.16,
+	  "height": 8
+        }
+      ]
+    }
+  },
+  "pads":
+  {
+    "pin":
+    {
+      "shapes":
+      [
+	{
+	  "layers": ["top","bottom"],
+	  "type": "circle",
+	  "diameter": 1.5 
+	}
+      ],
+      "drills":
+      [
+        {
+          "diameter": 0.7
+        }
+      ]
+    },
+    "pin1":
+    {
+      "shapes":
+      [
+	{
+	  "layers": ["top","bottom"],
+	  "type": "rect",
+          "width": 1.5,
+          "height": 1.5,
+          "radii": {"tl": 0.25, "tr": 0.25, "bl": 0.25, "br": 0.25}
+	}
+      ],
+      "drills":
+      [
+        {
+          "diameter": 0.7
+        }
+      ]
+    }
+  }
+}

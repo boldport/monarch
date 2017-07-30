@@ -1,0 +1,830 @@
+{
+  "components": {
+    "B1": {
+      "footprint": "CR2032-battery-holder-smd", 
+      "layer": "bottom", 
+      "location": [
+        -27.58687, 
+        15.110984
+      ], 
+      "rotate": 180, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "location": [
+            0, 
+            0
+          ], 
+          "show": false
+        }, 
+        "shapes": {
+          "show": true
+        }
+      }
+    }, 
+    "IC1": {
+      "footprint": "74HC86-PDIP14", 
+      "layer": "bottom", 
+      "location": [
+        0, 
+        -16.404153
+      ], 
+      "rotate": 180, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "location": [
+            0, 
+            0
+          ], 
+          "show": false
+        }, 
+        "shapes": {
+          "show": true
+        }
+      }
+    }, 
+    "IC2": {
+      "footprint": "74HC273-PDIP20", 
+      "layer": "bottom", 
+      "location": [
+        0, 
+        6.458337
+      ], 
+      "rotate": 180, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "location": [
+            0, 
+            0
+          ], 
+          "show": false
+        }, 
+        "shapes": {
+          "show": true
+        }
+      }
+    }, 
+    "J22": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "antenna", 
+      "layer": "top", 
+      "location": [
+        -3.81, 
+        23.854276
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "J23": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "antenna", 
+      "layer": "top", 
+      "location": [
+        3.81, 
+        23.854276
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "J55": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "th-resistor-wide", 
+      "layer": "top", 
+      "location": [
+        0, 
+        -20.155563
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "J56": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "th-resistor-wide", 
+      "layer": "top", 
+      "location": [
+        0, 
+        17.375
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "J57": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "th-resistor-wide", 
+      "layer": "top", 
+      "location": [
+        0, 
+        14.90417
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "J77": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "th-resistor-wide", 
+      "layer": "top", 
+      "location": [
+        0, 
+        -17.245146
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "J78": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "th-resistor-wide", 
+      "layer": "top", 
+      "location": [
+        0, 
+        -11.424971
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "J79": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "th-resistor-wide", 
+      "layer": "top", 
+      "location": [
+        0, 
+        -14.335339
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "J80": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "th-resistor-wide", 
+      "layer": "top", 
+      "location": [
+        0, 
+        -23.066639
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "LED1": {
+      "footprint": "led-5mm", 
+      "layer": "top", 
+      "location": [
+        -19.673514, 
+        -21.282783
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "LED2": {
+      "footprint": "led-5mm", 
+      "layer": "top", 
+      "location": [
+        -20.290074, 
+        -9.15919
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "LED3": {
+      "footprint": "led-5mm", 
+      "layer": "top", 
+      "location": [
+        -34.254211, 
+        0.476151
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "LED4": {
+      "footprint": "led-5mm", 
+      "layer": "top", 
+      "location": [
+        -46.345795, 
+        12.418788
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "LED5": {
+      "footprint": "led-5mm", 
+      "layer": "top", 
+      "location": [
+        19.673514, 
+        -21.282783
+      ], 
+      "rotate": 180, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "LED6": {
+      "footprint": "led-5mm", 
+      "layer": "top", 
+      "location": [
+        20.290074, 
+        -9.15919
+      ], 
+      "rotate": 180, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "LED7": {
+      "footprint": "led-5mm", 
+      "layer": "top", 
+      "location": [
+        34.254211, 
+        0.476151
+      ], 
+      "rotate": 180, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "LED8": {
+      "footprint": "led-5mm", 
+      "layer": "top", 
+      "location": [
+        46.345795, 
+        12.418788
+      ], 
+      "rotate": 180, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "LINK-L-B": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "antenna", 
+      "layer": "top", 
+      "location": [
+        -3.81, 
+        37.673228
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "LINK-L-T": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "antenna", 
+      "layer": "top", 
+      "location": [
+        -3.81, 
+        40.673227
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "LINK-R-B": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "antenna", 
+      "layer": "top", 
+      "location": [
+        3.81, 
+        37.673228
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "LINK-R-T": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "antenna", 
+      "layer": "top", 
+      "location": [
+        3.81, 
+        40.673227
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "R1": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        11.174121, 
+        -12.750428
+      ], 
+      "rotate": 120, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R2": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        11.317596, 
+        8.416239
+      ], 
+      "rotate": 60, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R3": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        12.856972, 
+        -2.167095
+      ], 
+      "rotate": 90, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R4": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        -11.174121, 
+        -12.750428
+      ], 
+      "rotate": 60, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R5": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        -11.317596, 
+        8.416239
+      ], 
+      "rotate": 120, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R6": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        -12.856972, 
+        -2.167095
+      ], 
+      "rotate": 90, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R65": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        -3.53481, 
+        -43.518024
+      ], 
+      "rotate": -45, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R66": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        -8.719825, 
+        -47.726443
+      ], 
+      "rotate": -45, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "SW1": {
+      "footprint": "switch", 
+      "layer": "bottom", 
+      "location": [
+        -24.323101, 
+        -0.304933
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }
+  }, 
+  "config": {
+    "name": "monarch", 
+    "no-docs": false, 
+    "no-drill-index": false, 
+    "no-flashes": false, 
+    "no-layer-index": false, 
+    "rev": "second", 
+    "style-layout": "default", 
+    "units": "mm"
+  }, 
+  "distances": {
+    "from-pour-to": {
+      "drill": 0.4, 
+      "outline": 0.25, 
+      "pad": 0.25, 
+      "route": 0.25
+    }, 
+    "soldermask": {
+      "circle-buffer": 0.05, 
+      "path-scale": 1.05, 
+      "rect-buffer": 0.05
+    }, 
+    "solderpaste": {
+      "circle-buffer": -0.1, 
+      "path-scale": 0.9, 
+      "rect-buffer": -0.1
+    }
+  }, 
+  "documentation": {
+    "board-details": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.5mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.5mm", 
+      "location": [
+        65.027078, 
+        0.89823975
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Board details:\nName: The Monarch\nRevision: first\nDescription: A butterfly fun soldering kit \nLicense: MIT\nCompany: Boldport\nDesigner: Saar Drimer, saar@boldport.com"
+    }, 
+    "manufacturing": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.5mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.5mm", 
+      "location": [
+        68.179061, 
+        -12.113962
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Manufacturing:\nRoHS and lead free compliant manufacturing process\nUnit of length: Millimetre (mm)\nNumber of layers: 2 ('top', 'bottom')\nBoard thickness: 1.6 mm\nMaterial: FR4 35/35 um copper\nSilkscreen: top, bottom, white\nSoldermask: top, bottom, red\nSurface finish: ENIG"
+    }, 
+    "pcbmode": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.2mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.2mm", 
+      "location": [
+        64.36907, 
+        -22.841212
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Designed with PCBmodE, an open source software\n     http://pcbmode.com\nStay updated:\n     @boldport @pcbmode http://boldport.com"
+    }
+  }, 
+  "drill-index": {
+    "location": [
+      52.247781, 
+      10.083663
+    ]
+  }, 
+  "drills": {}, 
+  "files": {
+    "routing-data": "monarch_routing.json", 
+    "routing-svg": "monarch.svg"
+  }, 
+  "gerber": {
+    "decimals": 6, 
+    "digits": 6, 
+    "min-segment-length": 0.05, 
+    "steps-per-segment": 100
+  }, 
+  "layer-control": {
+    "assembly": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "conductor": {
+      "hide": false, 
+      "lock": false, 
+      "pads": {
+        "hide": false, 
+        "lock": false, 
+        "place": true
+      }, 
+      "place": true, 
+      "pours": {
+        "hide": false, 
+        "lock": true, 
+        "place": true
+      }, 
+      "routing": {
+        "hide": false, 
+        "lock": false, 
+        "place": true
+      }
+    }, 
+    "dimensions": {
+      "hide": false, 
+      "lock": true, 
+      "place": true
+    }, 
+    "documentation": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "drills": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "origin": {
+      "hide": false, 
+      "lock": true, 
+      "place": true
+    }, 
+    "outline": {
+      "hide": false, 
+      "lock": true, 
+      "place": true
+    }, 
+    "placement": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "silkscreen": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "soldermask": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "solderpaste": {
+      "hide": true, 
+      "lock": true, 
+      "place": true
+    }
+  }, 
+  "outline": {
+    "shape": {
+      "height": 60, 
+      "type": "path", 
+      "value": "m -3.4505221,-25.833475 c -0.9139529,0.331359 -1.5367987,0.77779 -1.6999178,1.617269 -0.1631191,0.83948 0.3105669,1.497342 0.9721205,2.871949 0.4910028,1.020229 -0.4666435,2.312724 -1.7966039,1.398528 -1.3299604,-0.914196 -6.3840337,-3.125234 -10.1401997,-3.885764 -6.359842,-1.287697 -9.653196,-0.716217 -15.195748,0.24164 -8.672826,1.49881 -13.3372,3.370726 -17.030145,7.704913 -0.726087,0.85215 -1.316938,1.677607 -1.521354,2.124937 -0.491843,0.86548 -0.805009,2.448169 0.231093,4.5053052 1.815511,3.6046279 8.671341,4.0040257 9.882754,10.2395638 1.359961,7.000166 9.071392,8.070579 14.220242,8.062785 0.685306,-10e-4 2.552231,0.650699 1.258407,2.365278 -1.649648,4.851459 -2.938442,10.502959 1.717286,13.544523 1.0259,0.670215 2.639973,1.253648 4.147381,0.664979 3.127757,-1.221442 4.147877,0.911659 6.238573,-0.184749 4.2091684,-2.207382 5.4726913,0.890848 12.81527473,0.822115 4.58982577,-0.177115 5.83643637,-2.486584 9.02957377,-1.016167 3.7852345,1.743073 4.9080515,-0.511949 9.1136325,0.01621 3.130457,0.512987 4.973073,-1.582816 5.793761,-4.619599 0.854008,-3.160074 0.444858,-7.735947 -0.268038,-9.350919 -0.712895,-1.614972 -0.483978,-2.296776 0.603617,-2.194896 15.6382,-1.02872 9.730831,-8.5941112 14.929227,-11.6697112 6.016625,-3.5596957 11.042998,-5.5152302 10.344683,-8.9429658 0.249492,-0.122199 0.100949,-2.011839 -0.226343,-2.879409 -0.328726,-0.871357 -1.611418,-2.481657 -2.878894,-3.614247 -1.310479,-1.17103 -4.221467,-3.060417 -6.173266,-4.006987 -2.719565,-1.31892 -7.027722,-2.260224 -11.445904,-2.733894 -6.023252,-0.550651 -10.355841,-0.795644 -16.18208,1.01665 -2.593914,0.80762 -6.831879,3.316748 -7.0039137,3.523468 -1.2261433,0.655698 -2.1733936,0.280545 -2.3501492,-0.481934 -0.1767555,-0.762479 0.2597682,-1.323627 0.8920329,-2.338792 0.6322646,-1.015165 -0.3270516,-2.442924 -1.4677866,-2.859038 -1.3050514,-0.497005 -5.8953625,-0.2724 -6.8093155,0.05896 z", 
+      "width": 100
+    }
+  }, 
+  "shapes": {
+    "BPL": {
+      "footprint": "boldport-logo-b", 
+      "layer": "bottom", 
+      "location": [
+        0, 
+        -23.386664
+      ], 
+      "show": false
+    }, 
+    "PRS": {
+      "footprint": "pours", 
+      "layer": "top", 
+      "location": [
+        0, 
+        0
+      ], 
+      "show": false
+    }, 
+    "SLK": {
+      "footprint": "silkscreen", 
+      "layer": "top", 
+      "location": [
+        0, 
+        0
+      ], 
+      "show": false, 
+      "sikscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }
+  }, 
+  "soldermask": {
+    "circle-buffer": 0.05, 
+    "path-scale": 1.05, 
+    "rect-buffer": 0.05
+  }, 
+  "solderpaste": {
+    "circle-buffer": -0.1, 
+    "path-scale": 0.9, 
+    "rect-buffer": -0.1
+  }, 
+  "stackup": {
+    "name": "two-layer"
+  }, 
+  "vias": {
+    "default-via": "VIA"
+  }
+}
