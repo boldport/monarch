@@ -27,9 +27,9 @@
       "layer": "bottom", 
       "location": [
         0, 
-        -18.520821
+        -19.049988
       ], 
-      "rotate": 180, 
+      "rotate": 0, 
       "show": true, 
       "silkscreen": {
         "refdef": {
@@ -49,9 +49,31 @@
       "layer": "bottom", 
       "location": [
         0, 
-        3.812504
+        3.68793
       ], 
       "rotate": 180, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "location": [
+            0, 
+            0
+          ], 
+          "show": false
+        }, 
+        "shapes": {
+          "show": true
+        }
+      }
+    }, 
+    "IC4": {
+      "footprint": "555", 
+      "layer": "bottom", 
+      "location": [
+        0, 
+        22.629581
+      ], 
+      "rotate": 90, 
       "show": true, 
       "silkscreen": {
         "refdef": {
@@ -142,7 +164,7 @@
       "layer": "top", 
       "location": [
         0, 
-        14.729165
+        8.002384
       ], 
       "show": true, 
       "silkscreen": {
@@ -164,7 +186,29 @@
       "layer": "top", 
       "location": [
         0, 
-        12.258335
+        -9.966666
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "J59": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "th-resistor-wide", 
+      "layer": "top", 
+      "location": [
+        0, 
+        5
       ], 
       "show": true, 
       "silkscreen": {
@@ -274,7 +318,7 @@
       "layer": "top", 
       "location": [
         0, 
-        40
+        11.684499
       ], 
       "show": true, 
       "silkscreen": {
@@ -296,7 +340,7 @@
       "layer": "top", 
       "location": [
         0, 
-        45
+        15.366659
       ], 
       "show": true, 
       "silkscreen": {
@@ -460,7 +504,7 @@
       "layer": "top", 
       "location": [
         -3.81, 
-        40.673227
+        43.319062
       ], 
       "show": true, 
       "silkscreen": {
@@ -504,7 +548,7 @@
       "layer": "top", 
       "location": [
         3.81, 
-        40.673227
+        43.319062
       ], 
       "show": true, 
       "silkscreen": {
@@ -610,8 +654,23 @@
       "footprint": "flat-resistor-pads", 
       "layer": "bottom", 
       "location": [
-        33.862804, 
-        16.487073
+        29.02452, 
+        1.468507
+      ], 
+      "rotate": 90, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R656": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        29.917489, 
+        7.299497
       ], 
       "rotate": 0, 
       "show": true, 
@@ -625,10 +684,55 @@
       "footprint": "flat-resistor-pads", 
       "layer": "bottom", 
       "location": [
-        15.973187, 
-        16.487073
+        16.233069, 
+        1.468507
+      ], 
+      "rotate": 90, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R666": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        23.60833, 
+        7.431788
       ], 
       "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R756": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        32.927124, 
+        18.920069
+      ], 
+      "rotate": 90, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R766": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        20.135673, 
+        18.920069
+      ], 
+      "rotate": 90, 
       "show": true, 
       "silkscreen": {
         "refdef": {
@@ -641,7 +745,7 @@
       "layer": "bottom", 
       "location": [
         -24.323101, 
-        -2.4216
+        -1.892433
       ], 
       "rotate": 0, 
       "show": true, 
