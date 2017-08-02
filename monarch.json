@@ -164,7 +164,7 @@
       "layer": "top", 
       "location": [
         0, 
-        8.002384
+        5.563551
       ], 
       "show": true, 
       "silkscreen": {
@@ -208,7 +208,7 @@
       "layer": "top", 
       "location": [
         0, 
-        5
+        2.354166
       ], 
       "show": true, 
       "silkscreen": {
@@ -318,7 +318,7 @@
       "layer": "top", 
       "location": [
         0, 
-        11.684499
+        8.772886
       ], 
       "show": true, 
       "silkscreen": {
@@ -340,7 +340,29 @@
       "layer": "top", 
       "location": [
         0, 
-        15.366659
+        11.982271
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "J886": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "th-resistor-wide", 
+      "layer": "top", 
+      "location": [
+        0, 
+        15.191657
       ], 
       "show": true, 
       "silkscreen": {
@@ -654,8 +676,8 @@
       "footprint": "flat-resistor-pads", 
       "layer": "bottom", 
       "location": [
-        29.02452, 
-        1.468507
+        28.495353, 
+        0.93934
       ], 
       "rotate": 90, 
       "show": true, 
@@ -669,7 +691,7 @@
       "footprint": "flat-resistor-pads", 
       "layer": "bottom", 
       "location": [
-        29.917489, 
+        30.027495, 
         7.299497
       ], 
       "rotate": 0, 
@@ -684,8 +706,8 @@
       "footprint": "flat-resistor-pads", 
       "layer": "bottom", 
       "location": [
-        16.233069, 
-        1.468507
+        15.703902, 
+        0.93934
       ], 
       "rotate": 90, 
       "show": true, 
@@ -715,7 +737,7 @@
       "layer": "bottom", 
       "location": [
         32.927124, 
-        18.920069
+        17.861735
       ], 
       "rotate": 90, 
       "show": true, 
@@ -730,9 +752,24 @@
       "layer": "bottom", 
       "location": [
         20.135673, 
-        18.920069
+        17.861735
       ], 
       "rotate": 90, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R956": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        36.446656, 
+        7.299497
+      ], 
+      "rotate": 0, 
       "show": true, 
       "silkscreen": {
         "refdef": {
@@ -746,6 +783,96 @@
       "location": [
         -24.323101, 
         -1.892433
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "TP1": {
+      "footprint": "test-point", 
+      "layer": "bottom", 
+      "location": [
+        25, 
+        -40
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "TP2": {
+      "footprint": "test-point", 
+      "layer": "bottom", 
+      "location": [
+        20, 
+        -40
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "TP3": {
+      "footprint": "test-point", 
+      "layer": "bottom", 
+      "location": [
+        15, 
+        -40
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "TP4": {
+      "footprint": "test-point", 
+      "layer": "bottom", 
+      "location": [
+        -13.44404, 
+        -26.35529
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "TP5": {
+      "footprint": "test-point", 
+      "layer": "bottom", 
+      "location": [
+        -15.803893, 
+        -22.092457
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "TP6": {
+      "footprint": "test-point", 
+      "layer": "bottom", 
+      "location": [
+        -10.141324, 
+        -20.286695
       ], 
       "rotate": 0, 
       "show": true, 
