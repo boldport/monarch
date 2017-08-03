@@ -921,6 +921,20 @@
     }
   }, 
   "shapes": {
+    "BLB": {
+      "footprint": "boldport-logo-b", 
+      "layer": "bottom", 
+      "location": [
+        14.819188, 
+        -9.981735
+      ], 
+      "show": true, 
+      "sikscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
     "BPL": {
       "footprint": "boldport-logo-b", 
       "layer": "bottom", 
@@ -929,6 +943,21 @@
         -23.386664
       ], 
       "show": false
+    }, 
+    "INFO": {
+      "footprint": "info", 
+      "layer": "bottom", 
+      "location": [
+        0, 
+        -10
+      ], 
+      "rotate": 90, 
+      "show": true, 
+      "sikscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
     }, 
     "PRS": {
       "footprint": "pours", 
@@ -987,6 +1016,20 @@
       "location": [
         8.537074, 
         0.280018
+      ], 
+      "show": true, 
+      "sikscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "TM": {
+      "footprint": "the-monarch", 
+      "layer": "bottom", 
+      "location": [
+        32.633972, 
+        14.699155
       ], 
       "show": true, 
       "sikscreen": {
