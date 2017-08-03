@@ -23,13 +23,13 @@
       }
     }, 
     "IC1": {
-      "footprint": "74HC86-PDIP14", 
+      "footprint": "555", 
       "layer": "bottom", 
       "location": [
         0, 
-        -19.049988
+        22.629581
       ], 
-      "rotate": 0, 
+      "rotate": 90, 
       "show": true, 
       "silkscreen": {
         "refdef": {
@@ -66,14 +66,14 @@
         }
       }
     }, 
-    "IC4": {
-      "footprint": "555", 
+    "IC3": {
+      "footprint": "74HC86-PDIP14", 
       "layer": "bottom", 
       "location": [
         0, 
-        22.629581
+        -19.049988
       ], 
-      "rotate": 90, 
+      "rotate": 0, 
       "show": true, 
       "silkscreen": {
         "refdef": {
@@ -88,29 +88,7 @@
         }
       }
     }, 
-    "J22": {
-      "assembly": {
-        "refdef": {
-          "show": false
-        }
-      }, 
-      "footprint": "antenna", 
-      "layer": "top", 
-      "location": [
-        -6.985, 
-        23.325109
-      ], 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }, 
-        "shapes": {
-          "show": false
-        }
-      }
-    }, 
-    "J23": {
+    "J1": {
       "assembly": {
         "refdef": {
           "show": false
@@ -132,17 +110,17 @@
         }
       }
     }, 
-    "J55": {
+    "J2": {
       "assembly": {
         "refdef": {
           "show": false
         }
       }, 
-      "footprint": "th-resistor-wide", 
+      "footprint": "antenna", 
       "layer": "top", 
       "location": [
-        0, 
-        -22.272231
+        -6.985, 
+        23.325109
       ], 
       "show": true, 
       "silkscreen": {
@@ -154,189 +132,13 @@
         }
       }
     }, 
-    "J56": {
+    "J3": {
       "assembly": {
         "refdef": {
           "show": false
         }
       }, 
-      "footprint": "th-resistor-wide", 
-      "layer": "top", 
-      "location": [
-        0, 
-        5.563551
-      ], 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }, 
-        "shapes": {
-          "show": false
-        }
-      }
-    }, 
-    "J57": {
-      "assembly": {
-        "refdef": {
-          "show": false
-        }
-      }, 
-      "footprint": "th-resistor-wide", 
-      "layer": "top", 
-      "location": [
-        0, 
-        -9.966666
-      ], 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }, 
-        "shapes": {
-          "show": false
-        }
-      }
-    }, 
-    "J59": {
-      "assembly": {
-        "refdef": {
-          "show": false
-        }
-      }, 
-      "footprint": "th-resistor-wide", 
-      "layer": "top", 
-      "location": [
-        0, 
-        2.354166
-      ], 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }, 
-        "shapes": {
-          "show": false
-        }
-      }
-    }, 
-    "J77": {
-      "assembly": {
-        "refdef": {
-          "show": false
-        }
-      }, 
-      "footprint": "th-resistor-wide", 
-      "layer": "top", 
-      "location": [
-        0, 
-        -19.361814
-      ], 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }, 
-        "shapes": {
-          "show": false
-        }
-      }
-    }, 
-    "J78": {
-      "assembly": {
-        "refdef": {
-          "show": false
-        }
-      }, 
-      "footprint": "th-resistor-wide", 
-      "layer": "top", 
-      "location": [
-        0, 
-        -13.541639
-      ], 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }, 
-        "shapes": {
-          "show": false
-        }
-      }
-    }, 
-    "J79": {
-      "assembly": {
-        "refdef": {
-          "show": false
-        }
-      }, 
-      "footprint": "th-resistor-wide", 
-      "layer": "top", 
-      "location": [
-        0, 
-        -16.452007
-      ], 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }, 
-        "shapes": {
-          "show": false
-        }
-      }
-    }, 
-    "J80": {
-      "assembly": {
-        "refdef": {
-          "show": false
-        }
-      }, 
-      "footprint": "th-resistor-wide", 
-      "layer": "top", 
-      "location": [
-        0, 
-        -25.183307
-      ], 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }, 
-        "shapes": {
-          "show": false
-        }
-      }
-    }, 
-    "J85": {
-      "assembly": {
-        "refdef": {
-          "show": false
-        }
-      }, 
-      "footprint": "th-resistor-wide", 
-      "layer": "top", 
-      "location": [
-        0, 
-        8.772886
-      ], 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }, 
-        "shapes": {
-          "show": false
-        }
-      }
-    }, 
-    "J86": {
-      "assembly": {
-        "refdef": {
-          "show": false
-        }
-      }, 
-      "footprint": "th-resistor-wide", 
+      "footprint": "wire-jumper", 
       "layer": "top", 
       "location": [
         0, 
@@ -348,21 +150,21 @@
           "show": false
         }, 
         "shapes": {
-          "show": false
+          "show": true
         }
       }
     }, 
-    "J886": {
+    "J4": {
       "assembly": {
         "refdef": {
           "show": false
         }
       }, 
-      "footprint": "th-resistor-wide", 
+      "footprint": "wire-jumper", 
       "layer": "top", 
       "location": [
         0, 
-        15.191657
+        5.563551
       ], 
       "show": true, 
       "silkscreen": {
@@ -370,7 +172,73 @@
           "show": false
         }, 
         "shapes": {
+          "show": true
+        }
+      }
+    }, 
+    "J5": {
+      "assembly": {
+        "refdef": {
           "show": false
+        }
+      }, 
+      "footprint": "wire-jumper", 
+      "layer": "top", 
+      "location": [
+        0, 
+        2.354166
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": true
+        }
+      }
+    }, 
+    "J6": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "wire-jumper", 
+      "layer": "top", 
+      "location": [
+        0, 
+        -9.966666
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": true
+        }
+      }
+    }, 
+    "J7": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "wire-jumper", 
+      "layer": "top", 
+      "location": [
+        0, 
+        -25.183307
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": true
         }
       }
     }, 
@@ -378,8 +246,8 @@
       "footprint": "led-5mm", 
       "layer": "top", 
       "location": [
-        -22.319349, 
-        -23.399451
+        -46.345795, 
+        10.30212
       ], 
       "rotate": 0, 
       "show": true, 
@@ -393,10 +261,10 @@
       "footprint": "led-5mm", 
       "layer": "top", 
       "location": [
-        -20.290074, 
-        -11.275857
+        46.345795, 
+        10.30212
       ], 
-      "rotate": 0, 
+      "rotate": 180, 
       "show": true, 
       "silkscreen": {
         "refdef": {
@@ -423,10 +291,10 @@
       "footprint": "led-5mm", 
       "layer": "top", 
       "location": [
-        -46.345795, 
-        10.30212
+        34.254211, 
+        -1.640516
       ], 
-      "rotate": 0, 
+      "rotate": 180, 
       "show": true, 
       "silkscreen": {
         "refdef": {
@@ -438,10 +306,10 @@
       "footprint": "led-5mm", 
       "layer": "top", 
       "location": [
-        22.319349, 
-        -23.399451
+        -20.290074, 
+        -11.275857
       ], 
-      "rotate": 180, 
+      "rotate": 0, 
       "show": true, 
       "silkscreen": {
         "refdef": {
@@ -468,10 +336,10 @@
       "footprint": "led-5mm", 
       "layer": "top", 
       "location": [
-        34.254211, 
-        -1.640516
+        -22.319349, 
+        -23.399451
       ], 
-      "rotate": 180, 
+      "rotate": 0, 
       "show": true, 
       "silkscreen": {
         "refdef": {
@@ -483,8 +351,8 @@
       "footprint": "led-5mm", 
       "layer": "top", 
       "location": [
-        46.345795, 
-        10.30212
+        22.319349, 
+        -23.399451
       ], 
       "rotate": 180, 
       "show": true, 
@@ -494,260 +362,7 @@
         }
       }
     }, 
-    "LINK-L-B": {
-      "assembly": {
-        "refdef": {
-          "show": false
-        }
-      }, 
-      "footprint": "antenna", 
-      "layer": "top", 
-      "location": [
-        -3.81, 
-        37.673228
-      ], 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }, 
-        "shapes": {
-          "show": false
-        }
-      }
-    }, 
-    "LINK-L-T": {
-      "assembly": {
-        "refdef": {
-          "show": false
-        }
-      }, 
-      "footprint": "antenna", 
-      "layer": "top", 
-      "location": [
-        -3.81, 
-        43.319062
-      ], 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }, 
-        "shapes": {
-          "show": false
-        }
-      }
-    }, 
-    "LINK-R-B": {
-      "assembly": {
-        "refdef": {
-          "show": false
-        }
-      }, 
-      "footprint": "antenna", 
-      "layer": "top", 
-      "location": [
-        3.81, 
-        37.673228
-      ], 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }, 
-        "shapes": {
-          "show": false
-        }
-      }
-    }, 
-    "LINK-R-T": {
-      "assembly": {
-        "refdef": {
-          "show": false
-        }
-      }, 
-      "footprint": "antenna", 
-      "layer": "top", 
-      "location": [
-        3.81, 
-        43.319062
-      ], 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }, 
-        "shapes": {
-          "show": false
-        }
-      }
-    }, 
     "R1": {
-      "footprint": "flat-resistor-pads", 
-      "layer": "bottom", 
-      "location": [
-        11.174121, 
-        -14.867096
-      ], 
-      "rotate": 120, 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "R2": {
-      "footprint": "flat-resistor-pads", 
-      "layer": "bottom", 
-      "location": [
-        11.317596, 
-        6.299572
-      ], 
-      "rotate": 60, 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "R3": {
-      "footprint": "flat-resistor-pads", 
-      "layer": "bottom", 
-      "location": [
-        12.856972, 
-        -4.283762
-      ], 
-      "rotate": 90, 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "R4": {
-      "footprint": "flat-resistor-pads", 
-      "layer": "bottom", 
-      "location": [
-        -11.174121, 
-        -14.867096
-      ], 
-      "rotate": 60, 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "R5": {
-      "footprint": "flat-resistor-pads", 
-      "layer": "bottom", 
-      "location": [
-        -11.317596, 
-        6.299572
-      ], 
-      "rotate": 120, 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "R6": {
-      "footprint": "flat-resistor-pads", 
-      "layer": "bottom", 
-      "location": [
-        -12.856972, 
-        -4.283762
-      ], 
-      "rotate": 90, 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "R65": {
-      "footprint": "flat-resistor-pads", 
-      "layer": "bottom", 
-      "location": [
-        28.495353, 
-        0.93934
-      ], 
-      "rotate": 90, 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "R656": {
-      "footprint": "flat-resistor-pads", 
-      "layer": "bottom", 
-      "location": [
-        30.027495, 
-        7.299497
-      ], 
-      "rotate": 0, 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "R66": {
-      "footprint": "flat-resistor-pads", 
-      "layer": "bottom", 
-      "location": [
-        15.703902, 
-        0.93934
-      ], 
-      "rotate": 90, 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "R666": {
-      "footprint": "flat-resistor-pads", 
-      "layer": "bottom", 
-      "location": [
-        23.60833, 
-        7.431788
-      ], 
-      "rotate": 0, 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "R756": {
-      "footprint": "flat-resistor-pads", 
-      "layer": "bottom", 
-      "location": [
-        32.927124, 
-        17.861735
-      ], 
-      "rotate": 90, 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "R766": {
       "footprint": "flat-resistor-pads", 
       "layer": "bottom", 
       "location": [
@@ -762,7 +377,274 @@
         }
       }
     }, 
-    "R956": {
+    "R10": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        15.703902, 
+        0.93934
+      ], 
+      "rotate": 90, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R11": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        28.495353, 
+        0.93934
+      ], 
+      "rotate": 90, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R12": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        -12.856972, 
+        -4.283762
+      ], 
+      "rotate": 90, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R13": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        12.856972, 
+        -4.283762
+      ], 
+      "rotate": 90, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R14": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "resistor-jumper", 
+      "layer": "top", 
+      "location": [
+        0, 
+        -13.009994
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "R15": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        11.174121, 
+        -14.867096
+      ], 
+      "rotate": 120, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R16": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        -11.174121, 
+        -14.867096
+      ], 
+      "rotate": 60, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R17": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "resistor-jumper", 
+      "layer": "top", 
+      "location": [
+        0, 
+        -16.053323
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "R18": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "resistor-jumper", 
+      "layer": "top", 
+      "location": [
+        0, 
+        -19.096651
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "R19": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "resistor-jumper", 
+      "layer": "top", 
+      "location": [
+        0, 
+        -22.139979
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "R2": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        32.927124, 
+        17.861735
+      ], 
+      "rotate": 90, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R3": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "resistor-jumper", 
+      "layer": "top", 
+      "location": [
+        0, 
+        15.191657
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "R4": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "resistor-jumper", 
+      "layer": "top", 
+      "location": [
+        0, 
+        8.772886
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "R5": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        23.60833, 
+        7.431788
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R6": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        30.027495, 
+        7.299497
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R7": {
       "footprint": "flat-resistor-pads", 
       "layer": "bottom", 
       "location": [
@@ -770,6 +652,36 @@
         7.299497
       ], 
       "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R8": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        11.317596, 
+        6.299572
+      ], 
+      "rotate": 60, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R9": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        -11.317596, 
+        6.299572
+      ], 
+      "rotate": 120, 
       "show": true, 
       "silkscreen": {
         "refdef": {
@@ -796,8 +708,8 @@
       "footprint": "test-point", 
       "layer": "bottom", 
       "location": [
-        25, 
-        -40
+        -10.141324, 
+        -20.286695
       ], 
       "rotate": 0, 
       "show": true, 
@@ -808,51 +720,6 @@
       }
     }, 
     "TP2": {
-      "footprint": "test-point", 
-      "layer": "bottom", 
-      "location": [
-        20, 
-        -40
-      ], 
-      "rotate": 0, 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "TP3": {
-      "footprint": "test-point", 
-      "layer": "bottom", 
-      "location": [
-        15, 
-        -40
-      ], 
-      "rotate": 0, 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "TP4": {
-      "footprint": "test-point", 
-      "layer": "bottom", 
-      "location": [
-        -13.44404, 
-        -26.35529
-      ], 
-      "rotate": 0, 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "TP5": {
       "footprint": "test-point", 
       "layer": "bottom", 
       "location": [
@@ -867,12 +734,12 @@
         }
       }
     }, 
-    "TP6": {
+    "TP3": {
       "footprint": "test-point", 
       "layer": "bottom", 
       "location": [
-        -10.141324, 
-        -20.286695
+        -13.44404, 
+        -26.35529
       ], 
       "rotate": 0, 
       "show": true, 
@@ -1048,7 +915,8 @@
     "shape": {
       "height": 60, 
       "type": "path", 
-      "value": "m -5.281832,-27.704817 c -0.7124764,0.293902 -1.160302,1.494168 -1.4227992,1.964769 -0.2978492,0.533979 -2.3849792,0.695052 -2.1169303,2.55855 0.268049,1.863498 1.6377051,1.75838 1.6361009,2.914938 -0.0016,1.156557 -1.0827948,1.181052 -1.7941971,0.48419 -1.1528943,-1.12933 -3.7410293,-2.663173 -6.9671083,-4.048783 -3.249131,-1.395511 -15.740834,-1.291658 -20.480165,-0.198727 -4.739331,1.092931 -7.201001,2.336148 -9.543887,4.710409 -2.342886,2.374261 -3.694926,5.200552 -3.899342,5.647882 -0.491843,0.86548 -0.805009,4.564836 0.231093,6.6219722 1.815511,3.6046279 7.526383,2.5067741 8.737796,8.7423121 1.359961,7.0001661 8.068165,8.8045417 13.217015,8.7967477 0.685306,-10e-4 3.35803,-0.395759 2.531178,2.305696 -0.52994,1.731396 -2.368588,5.606325 -2.602532,8.529882 -0.235323,2.940804 1.272166,6.160382 5.283129,6.366023 1.223815,0.06274 2.552076,0.989399 4.059484,0.40073 3.127757,-1.221442 4.147877,0.911659 6.238573,-0.184749 4.2091686,-2.207382 5.4726915,0.890848 12.81527493,0.822115 4.58982577,-0.177115 5.83643637,-2.486584 9.02957377,-1.016167 3.7852343,1.743073 4.9080513,-0.511949 9.1136323,0.01621 3.130457,0.512987 7.281224,-0.946479 7.819768,-4.619599 0.538545,-3.67312 -1.040367,-7.257814 -1.809679,-10.671956 -1.200937,-4.8555563 1.959712,-2.4834364 7.870763,-3.0757544 5.874492,-0.5886546 2.948097,-7.0087723 8.146493,-10.0843723 6.016625,-3.5596957 9.634706,-6.1451261 9.397891,-8.0181927 -0.236814,-1.8730666 0.343152,-4.4338636 0.01586,-5.3014336 -0.328726,-0.871357 -1.611418,-2.481657 -2.878894,-3.614247 -1.310479,-1.17103 -4.13338,-2.267632 -6.085179,-3.214202 -2.719565,-1.31892 -7.027722,-2.260224 -11.445904,-2.733894 -6.023252,-0.550651 -8.537439,-0.0502 -14.363678,1.762097 -2.593914,0.80762 -4.326095,1.637734 -5.032263,2.073309 -0.7061679,0.435575 -2.3958039,1.326152 -2.8015961,-0.248484 -0.4057923,-1.574637 1.1175166,-1.351461 1.1039065,-3.308053 0.038233,-1.908975 -2.1100844,-1.719163 -2.3021635,-2.383911 -0.1446025,-0.500441 -1.1988542,-1.929217 -1.8805629,-2.168134 -3.55550981,-0.860549 -6.4118057,-1.10916 -9.820651,0.172827 z", 
+      "value": "m -11.030071,-123.33432 c 0.01275,19.07308 0.02549,38.146164 0.03824,57.219246 4.2359097,-0.299384 5.5033697,-2.415345 8.5927564,-0.992704 3.7852356,1.743075 4.9080796,-0.51163 9.1136576,0.01654 3.130458,0.512987 7.281135,-0.946754 7.819676,-4.619874 0.538546,-3.673121 -1.040395,-7.257561 -1.809708,-10.671702 -1.200935,-4.855557 1.959788,-2.483464 7.870839,-3.075781 5.87449,-0.588656 2.947876,-7.009054 8.146272,-10.084658 6.016625,-3.55969 9.634691,-6.145047 9.397875,-8.018117 -0.236812,-1.87306 0.343324,-4.43391 0.01603,-5.30148 -0.328726,-0.87136 -1.611418,-2.48166 -2.878894,-3.61425 -1.310479,-1.17103 -4.133101,-2.26719 -6.084901,-3.21376 -2.719565,-1.31892 -7.028148,-2.26053 -11.44633,-2.7342 -6.02325,-0.55065 -8.537226,-0.0501 -14.363464,1.76217 -2.59391503,0.80762 -4.32608303,1.63768 -5.032251,2.07326 -0.7061679,0.43557 -2.395588,1.32607 -2.80138,-0.24856 -0.4057913,-1.57464 1.1174205,-1.35122 1.1038104,-3.30781 0.038235,-1.90898 -2.1101057,-1.71909 -2.3021847,-2.38384 -0.1446,-0.50044 -1.198801,-1.92942 -1.880508,-2.16834 -1.233077,-0.29844 -2.382432,-0.52321 -3.4995267,-0.63614 -3e-6,0 -6e-6,0 -9e-6,0 z m -2.086695,-0.0708 c -1.375714,0.0543 -2.752656,0.3223 -4.234365,0.87953 -0.712475,0.2939 -1.160674,1.49466 -1.42317,1.96526 -0.297849,0.53398 -2.384716,0.695 -2.116667,2.5585 0.26805,1.8635 1.637679,1.75799 1.636075,2.91455 -0.0016,1.15656 -1.082804,1.18107 -1.794205,0.48421 -1.152896,-1.12933 -3.740936,-2.66324 -6.967017,-4.04885 -3.249131,-1.39551 -15.741071,-1.29137 -20.480402,-0.19844 -4.739331,1.09293 -7.200717,2.33605 -9.543603,4.71031 -2.342886,2.37426 -3.695088,5.20039 -3.899504,5.64772 -0.491843,0.86548 -0.805108,4.56519 0.230994,6.62233 1.815511,3.604627 7.526555,2.506557 8.737968,8.742099 1.359961,7.000166 8.067914,8.804669 13.216764,8.796877 0.685306,-0.0011 3.357963,-0.39565 2.531112,2.305805 -0.52994,1.731396 -2.368482,5.606155 -2.602426,8.529711 -0.235323,2.940805 1.272436,6.160382 5.283398,6.366021 1.223814,0.06274 2.551777,0.989161 4.059185,0.400492 3.127758,-1.221441 4.148201,0.911921 6.238893,-0.184486 3.851442,-2.019782 5.236364,0.402513 11.069093,0.776182 0.01929,-19.089274 0.03858,-38.178551 0.05788,-57.267821 z", 
+      "value-no-split": "m -5.281832,-27.704817 c -0.7124764,0.293902 -1.160302,1.494168 -1.4227992,1.964769 -0.2978492,0.533979 -2.3849792,0.695052 -2.1169303,2.55855 0.268049,1.863498 1.6377051,1.75838 1.6361009,2.914938 -0.0016,1.156557 -1.0827948,1.181052 -1.7941971,0.48419 -1.1528943,-1.12933 -3.7410293,-2.663173 -6.9671083,-4.048783 -3.249131,-1.395511 -15.740834,-1.291658 -20.480165,-0.198727 -4.739331,1.092931 -7.201001,2.336148 -9.543887,4.710409 -2.342886,2.374261 -3.694926,5.200552 -3.899342,5.647882 -0.491843,0.86548 -0.805009,4.564836 0.231093,6.6219722 1.815511,3.6046279 7.526383,2.5067741 8.737796,8.7423121 1.359961,7.0001661 8.068165,8.8045417 13.217015,8.7967477 0.685306,-10e-4 3.35803,-0.395759 2.531178,2.305696 -0.52994,1.731396 -2.368588,5.606325 -2.602532,8.529882 -0.235323,2.940804 1.272166,6.160382 5.283129,6.366023 1.223815,0.06274 2.552076,0.989399 4.059484,0.40073 3.127757,-1.221442 4.147877,0.911659 6.238573,-0.184749 4.2091686,-2.207382 5.4726915,0.890848 12.81527493,0.822115 4.58982577,-0.177115 5.83643637,-2.486584 9.02957377,-1.016167 3.7852343,1.743073 4.9080513,-0.511949 9.1136323,0.01621 3.130457,0.512987 7.281224,-0.946479 7.819768,-4.619599 0.538545,-3.67312 -1.040367,-7.257814 -1.809679,-10.671956 -1.200937,-4.8555563 1.959712,-2.4834364 7.870763,-3.0757544 5.874492,-0.5886546 2.948097,-7.0087723 8.146493,-10.0843723 6.016625,-3.5596957 9.634706,-6.1451261 9.397891,-8.0181927 -0.236814,-1.8730666 0.343152,-4.4338636 0.01586,-5.3014336 -0.328726,-0.871357 -1.611418,-2.481657 -2.878894,-3.614247 -1.310479,-1.17103 -4.13338,-2.267632 -6.085179,-3.214202 -2.719565,-1.31892 -7.027722,-2.260224 -11.445904,-2.733894 -6.023252,-0.550651 -8.537439,-0.0502 -14.363678,1.762097 -2.593914,0.80762 -4.326095,1.637734 -5.032263,2.073309 -0.7061679,0.435575 -2.3958039,1.326152 -2.8015961,-0.248484 -0.4057923,-1.574637 1.1175166,-1.351461 1.1039065,-3.308053 0.038233,-1.908975 -2.1100844,-1.719163 -2.3021635,-2.383911 -0.1446025,-0.500441 -1.1988542,-1.929217 -1.8805629,-2.168134 -3.55550981,-0.860549 -6.4118057,-1.10916 -9.820651,0.172827 z", 
       "width": 100
     }
   }, 
@@ -1071,14 +939,56 @@
       ], 
       "show": false
     }, 
-    "SLK": {
-      "footprint": "silkscreen", 
+    "SM-BLACK": {
+      "footprint": "sm-black", 
+      "layer": "top", 
+      "location": [
+        0, 
+        -1.712074
+      ], 
+      "show": true, 
+      "sikscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "SM-RED": {
+      "footprint": "sm-red", 
       "layer": "top", 
       "location": [
         0, 
         0
       ], 
-      "show": false, 
+      "show": true, 
+      "sikscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "SS-DOTS": {
+      "footprint": "ss-dots", 
+      "layer": "top", 
+      "location": [
+        0, 
+        -1.712074
+      ], 
+      "show": true, 
+      "sikscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "SS-LEGEND": {
+      "footprint": "ss-legend", 
+      "layer": "bottom", 
+      "location": [
+        8.537074, 
+        0.280018
+      ], 
+      "show": true, 
       "sikscreen": {
         "refdef": {
           "show": false
