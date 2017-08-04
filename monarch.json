@@ -22,6 +22,51 @@
         }
       }
     }, 
+    "C1": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        23.60833, 
+        7.431788
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "C2": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        30.027495, 
+        7.299497
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "C3": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        36.446656, 
+        7.299497
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
     "IC1": {
       "footprint": "555", 
       "layer": "bottom", 
@@ -614,51 +659,6 @@
         }
       }
     }, 
-    "R5": {
-      "footprint": "flat-resistor-pads", 
-      "layer": "bottom", 
-      "location": [
-        23.60833, 
-        7.431788
-      ], 
-      "rotate": 0, 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "R6": {
-      "footprint": "flat-resistor-pads", 
-      "layer": "bottom", 
-      "location": [
-        30.027495, 
-        7.299497
-      ], 
-      "rotate": 0, 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "R7": {
-      "footprint": "flat-resistor-pads", 
-      "layer": "bottom", 
-      "location": [
-        36.446656, 
-        7.299497
-      ], 
-      "rotate": 0, 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
     "R8": {
       "footprint": "flat-resistor-pads", 
       "layer": "bottom", 
@@ -989,7 +989,7 @@
         0, 
         0
       ], 
-      "show": true, 
+      "show": false, 
       "sikscreen": {
         "refdef": {
           "show": false
