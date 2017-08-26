@@ -959,17 +959,8 @@
         }
       }
     }, 
-    "PRS": {
+    "POURS": {
       "footprint": "pours", 
-      "layer": "top", 
-      "location": [
-        0, 
-        0
-      ], 
-      "show": false
-    }, 
-    "SM-BLACK": {
-      "footprint": "sm-black", 
       "layer": "top", 
       "location": [
         0, 
@@ -982,8 +973,17 @@
         }
       }
     }, 
-    "POURS": {
+    "PRS": {
       "footprint": "pours", 
+      "layer": "top", 
+      "location": [
+        0, 
+        0
+      ], 
+      "show": false
+    }, 
+    "SM-BLACK": {
+      "footprint": "sm-black", 
       "layer": "top", 
       "location": [
         0, 
@@ -1042,8 +1042,8 @@
       "footprint": "the-monarch", 
       "layer": "bottom", 
       "location": [
-        32.633972, 
-        14.699155
+        -30.319117, 
+        5.97619
       ], 
       "show": true, 
       "sikscreen": {
