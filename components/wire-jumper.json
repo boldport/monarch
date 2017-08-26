@@ -52,7 +52,6 @@
       "shapes":
       [
 	{
-          "buffer-to-pour": 0.2,
 	  "layers": ["top","bottom"],
 	  "type": "circle",
 	  "diameter": 1.9
