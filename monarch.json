@@ -41,7 +41,7 @@
       "footprint": "flat-resistor-pads", 
       "layer": "bottom", 
       "location": [
-        30.027495, 
+        36.446656, 
         7.299497
       ], 
       "rotate": 0, 
@@ -56,7 +56,7 @@
       "footprint": "flat-resistor-pads", 
       "layer": "bottom", 
       "location": [
-        36.446656, 
+        30.027495, 
         7.299497
       ], 
       "rotate": 0, 
@@ -187,7 +187,7 @@
       "layer": "top", 
       "location": [
         0, 
-        11.982271
+        15.191657
       ], 
       "show": true, 
       "silkscreen": {
@@ -209,7 +209,7 @@
       "layer": "top", 
       "location": [
         0, 
-        5.563551
+        11.982271
       ], 
       "show": true, 
       "silkscreen": {
@@ -231,7 +231,7 @@
       "layer": "top", 
       "location": [
         0, 
-        2.354166
+        5.563551
       ], 
       "show": true, 
       "silkscreen": {
@@ -253,7 +253,7 @@
       "layer": "top", 
       "location": [
         0, 
-        -9.966666
+        2.354166
       ], 
       "show": true, 
       "silkscreen": {
@@ -266,6 +266,28 @@
       }
     }, 
     "J7": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "wire-jumper", 
+      "layer": "top", 
+      "location": [
+        0, 
+        -9.966666
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": true
+        }
+      }
+    }, 
+    "J8": {
       "assembly": {
         "refdef": {
           "show": false
@@ -411,7 +433,7 @@
       "footprint": "flat-resistor-pads", 
       "layer": "bottom", 
       "location": [
-        20.135673, 
+        32.927124, 
         17.861735
       ], 
       "rotate": 90, 
@@ -423,66 +445,6 @@
       }
     }, 
     "R10": {
-      "footprint": "flat-resistor-pads", 
-      "layer": "bottom", 
-      "location": [
-        15.703902, 
-        0.93934
-      ], 
-      "rotate": 90, 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "R11": {
-      "footprint": "flat-resistor-pads", 
-      "layer": "bottom", 
-      "location": [
-        28.495353, 
-        0.93934
-      ], 
-      "rotate": 90, 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "R12": {
-      "footprint": "flat-resistor-pads", 
-      "layer": "bottom", 
-      "location": [
-        -12.856972, 
-        -4.283762
-      ], 
-      "rotate": 90, 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "R13": {
-      "footprint": "flat-resistor-pads", 
-      "layer": "bottom", 
-      "location": [
-        12.856972, 
-        -4.283762
-      ], 
-      "rotate": 90, 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "R14": {
       "assembly": {
         "refdef": {
           "show": false
@@ -504,22 +466,7 @@
         }
       }
     }, 
-    "R15": {
-      "footprint": "flat-resistor-pads", 
-      "layer": "bottom", 
-      "location": [
-        11.174121, 
-        -14.867096
-      ], 
-      "rotate": 120, 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "R16": {
+    "R11": {
       "footprint": "flat-resistor-pads", 
       "layer": "bottom", 
       "location": [
@@ -534,7 +481,22 @@
         }
       }
     }, 
-    "R17": {
+    "R12": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        11.174121, 
+        -14.867096
+      ], 
+      "rotate": 120, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R13": {
       "assembly": {
         "refdef": {
           "show": false
@@ -556,7 +518,7 @@
         }
       }
     }, 
-    "R18": {
+    "R14": {
       "assembly": {
         "refdef": {
           "show": false
@@ -578,7 +540,7 @@
         }
       }
     }, 
-    "R19": {
+    "R15": {
       "assembly": {
         "refdef": {
           "show": false
@@ -604,7 +566,7 @@
       "footprint": "flat-resistor-pads", 
       "layer": "bottom", 
       "location": [
-        32.927124, 
+        20.135673, 
         17.861735
       ], 
       "rotate": 90, 
@@ -616,28 +578,6 @@
       }
     }, 
     "R3": {
-      "assembly": {
-        "refdef": {
-          "show": false
-        }
-      }, 
-      "footprint": "resistor-jumper", 
-      "layer": "top", 
-      "location": [
-        0, 
-        15.191657
-      ], 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }, 
-        "shapes": {
-          "show": false
-        }
-      }
-    }, 
-    "R4": {
       "assembly": {
         "refdef": {
           "show": false
@@ -659,7 +599,7 @@
         }
       }
     }, 
-    "R8": {
+    "R4": {
       "footprint": "flat-resistor-pads", 
       "layer": "bottom", 
       "location": [
@@ -674,7 +614,7 @@
         }
       }
     }, 
-    "R9": {
+    "R5": {
       "footprint": "flat-resistor-pads", 
       "layer": "bottom", 
       "location": [
@@ -682,6 +622,66 @@
         6.299572
       ], 
       "rotate": 120, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R6": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        15.703902, 
+        0.93934
+      ], 
+      "rotate": 90, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R7": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        28.495353, 
+        0.93934
+      ], 
+      "rotate": 90, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R8": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        -12.856972, 
+        -4.283762
+      ], 
+      "rotate": 90, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R9": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        12.856972, 
+        -4.283762
+      ], 
+      "rotate": 90, 
       "show": true, 
       "silkscreen": {
         "refdef": {
@@ -763,9 +763,9 @@
   "distances": {
     "from-pour-to": {
       "drill": 0.4, 
-      "outline": 0.25, 
-      "pad": 0.25, 
-      "route": 0.25
+      "outline": 0.4, 
+      "pad": 0.4, 
+      "route": 0.4
     }, 
     "soldermask": {
       "circle-buffer": 0.05, 
@@ -970,6 +970,20 @@
     }, 
     "SM-BLACK": {
       "footprint": "sm-black", 
+      "layer": "top", 
+      "location": [
+        0, 
+        -1.712074
+      ], 
+      "show": true, 
+      "sikscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "POURS": {
+      "footprint": "pours", 
       "layer": "top", 
       "location": [
         0, 
