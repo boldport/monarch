@@ -989,7 +989,7 @@
         0, 
         -1.712074
       ], 
-      "show": true, 
+      "show": false, 
       "sikscreen": {
         "refdef": {
           "show": false
@@ -1003,7 +1003,7 @@
         0, 
         0
       ], 
-      "show": false, 
+      "show": true, 
       "sikscreen": {
         "refdef": {
           "show": false
